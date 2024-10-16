@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Алгоритмическая задача с формой</title>
+</head>
+
+<body>
+    <a href="../../main/index.html" target="_self">Вернуться на главную</a>
+    <a href="../../js_algorithms/html/dom.html" target="_self">01</a>
+    <a href="../../js_algorithms/html/change.html" target="_self">02</a>
+    <a href="../../js_algorithms/html/problem.html" target="_self">03</a>
+    <a href="../../js_algorithms/html/form.html" target="_self"><b>16-17</b></a>
+
+    <form action="https://www.bing.com/?scope=web&cc=RU" id="ProblemForm" name="ProblemForm" target="_blank">
+        <p>Условие:<br>
+            <textarea cols=80 rows=4 id="formulation"
+                name="formulation">Дано вещественное число A. Вычислить x = 0 при a > 100; x = a при a < 61, в противном случае x = a**4. Отправить x на сервер.</textarea>
+        </p>
+        <p>A:<input type="number" id="a" name="a"></p>
+        <p>x:<input type="number" id="x" name="x"></p>
+        <p>Найти x<input type="button" id="solve" name="solve" value="Найти"></p>
+        <p>Отправить данные<input type="button" id="send" name="send" value="Отправить"></p>
+    </form>
+    <script src="../../js_algorithms/js/form.js"></script>
+</body>
+
+</html>
