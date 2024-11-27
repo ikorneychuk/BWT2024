@@ -1,6 +1,5 @@
 async function insert() {
-    console.log("1")
-    let file = await fetch("../data/inventors.json")
+    let file = await fetch("../json/inventors.json")
     console.log("responce:\n", file, "\n /responce: \n")
     let content = await file.text()
     console.log("await responce.text()\n", content)
@@ -18,7 +17,7 @@ async function insert() {
         insert.innerHTML += `
         <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
         <h5 class="card-title">${content[key].name}</h5>
-        <img style="width: 180px" class="align-self-center" src=${content[key].image}>
+        <img style="width: 180px" class="img-fluid align-self-center" src=${content[key].image}>
         <p class="card-text">${content[key].invention}.</p>
         </li>
                 `
