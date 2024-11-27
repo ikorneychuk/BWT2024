@@ -1,6 +1,7 @@
 async function insert() {
+    console.log("1")
     let file = await fetch("../data/inventors.json")
-    //console.log("responce:\n", responce, "\n /responce: \n")
+    console.log("responce:\n", file, "\n /responce: \n")
     let content = await file.text()
     //console.log("await responce.text()\n", content)
     content = JSON.parse(content)
