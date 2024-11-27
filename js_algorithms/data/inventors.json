@@ -1,62 +1,62 @@
 [
     {
         "name": "Василий Владимирович Петров",
-        "image": "../../image_library/petrov.jpg",
+        "image": "../../BWT2024/image_library/petrov.jpg",
         "invention": "Электрическая (вольтовая) дуга"
     },
     {
         "name": "Павел Львович Шиллинг",
-        "image": "../../image_library/shilling.jpg",
+        "image": "../../BWT2024/image_library/shilling.jpg",
         "invention": "Электромагнитный телеграф Шиллинга"
     },
     {
         "name": "Борис Семёнович Якоби",
-        "image": "../../image_library/yakobi.jpg",
+        "image": "../../BWT2024/image_library/yakobi.jpg",
         "invention": "Электромоторная лодка Якоби"
     },
     {
         "name": "Павел Петрович Аносов",
-        "image": "../../image_library/anosov.jpg",
+        "image": "../../BWT2024/image_library/anosov.jpg",
         "invention": "Получение булатной стали"
     },
     {
         "name": "Павел Матвеевич Обухов",
-        "image": "../../image_library/obuhov.jpg",
+        "image": "../../BWT2024/image_library/obuhov.jpg",
         "invention": "Получение легированных сталей"
     },
     {
         "name": "Степан Осипович Макаров",
-        "image": "../../image_library/makarov.jpg",
+        "image": "../../BWT2024/image_library/makarov.jpg",
         "invention": "Первая конструкция ледокола"
     },
     {
         "name": "Александр Николаевич Лодыгин",
-        "image": "../../image_library/lodygin.jpg",
+        "image": "../../BWT2024/image_library/lodygin.jpg",
         "invention": "Электрическая лампочка накаливания Лодыгина"
     },
     {
         "name": "Павел Николаевич Яблочков",
-        "image": "../../image_library/yablochkov.jpg",
+        "image": "../../BWT2024/image_library/yablochkov.jpg",
         "invention": "Угольная лампа Яблочкова (свеча Яблочкова)"
     },
     {
         "name": "Александр Фёдорович Можайский",
-        "image": "../../image_library/mozhaysky.jpg",
+        "image": "../../BWT2024/image_library/mozhaysky.jpg",
         "invention": "Первый в мире самолёт (аэроплан Можайского)"
     },
     {
         "name": "Фёдор Абрамович Блинов",
-        "image": "../../image_library/blinov.jpg",
+        "image": "../../BWT2024/image_library/blinov.jpg",
         "invention": "Гусеничный трактор"
     },
     {
         "name": "Владимир Григорьевич Шухов",
-        "image": "../../image_library/shuhov.jpg",
+        "image": "../../BWT2024/image_library/shuhov.jpg",
         "invention": "Первый в мире нефтепровод"
     },
     {
         "name": "Николай Николаевич Бенардос",
-        "image": "../../image_library/benardos.jpg",
+        "image": "../../BWT2024/image_library/benardos.jpg",
         "invention": "Дуговая электросварка"
     }
 ]
