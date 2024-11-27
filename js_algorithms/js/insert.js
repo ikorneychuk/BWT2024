@@ -1,5 +1,5 @@
 async function insert() {
-    let file = await fetch("https://github.com/ikorneychuk/BWT2024/blob/main/js_algorithms/data/inventors.json")
+    let file = await fetch("../../BWT2024/js_algorithms/data/inventors.json")
     console.log("responce:\n", file, "\n /responce: \n")
     let content = await file.text()
     console.log("await responce.text()\n", content)
