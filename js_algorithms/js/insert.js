@@ -3,10 +3,10 @@ async function insert() {
     let file = await fetch("../data/inventors.json")
     console.log("responce:\n", file, "\n /responce: \n")
     let content = await file.text()
-    //console.log("await responce.text()\n", content)
+    console.log("await responce.text()\n", content)
     content = JSON.parse(content)
     content = content.slice(0, 12)
-    //console.log("content.slice(0, 9)", content)
+    console.log("content.slice(0, 9)", content)
     let key
     //for (key in content) {
     //    console.log(content[key].id, content[key].title)
